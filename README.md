@@ -73,7 +73,7 @@ When reviewing your ERD you notice that it does not conform to second normal for
 6. Determine which columns should be stored in a separate table to reduce redundant data and to put this table into second normal form.
 7. Add a new table named product_type to the ERD, define the columns in the new table, and delete the moved columns from the product table, , leaving a matching column in each of two tables to later create a relationship between them.
 8. Take a screenshot of your ERD and save it as Task4B.png or Task4B.jpg.
-9. 
+
 ## Task 5: Define keys and relationships
 After normalizing your tables, you can define their primary keys and define relationships between the tables in your ERD.
 

@@ -47,7 +47,7 @@ In this task, you will identify the attributes for one of the entities that you 
 1. Using the information from the sample data in the image from Task 1, identify the attributes for the entity that will store the sales transaction data.
 
 2. Make a list of the sales transaction attributes that you identified.
-3. 
+ 
 ## Task 3: Create an ERD  
 Now that you have defined some of your attributes and entities, you can determine the tables and columns for them and create an ERD.
 

@@ -1,17 +1,17 @@
 ## **Task 1: Identify entities**
 
-`In relational databases, an entity represents a real-world object or concept that you want to store data about.`  
-`In the given tables`
+### In relational databases, an entity represents a real-world object or concept that you want to store data about.  
+### In the given tables
 
 ![][image1]
 
-`We can find the following entities:`
+We can find the following entities:
 
-- `staff`  
-- `sales_outlet`  
-- `sales_transaction`  
-- `customer`  
-- `product`
+- staff 
+- sales_outlet 
+- sales_transaction
+- customer 
+- product
 
 ## **Task 2: Identify attributes**
 

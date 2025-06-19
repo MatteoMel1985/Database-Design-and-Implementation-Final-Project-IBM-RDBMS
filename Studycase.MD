@@ -5,7 +5,7 @@
 * WARNINGs: 0
 * ALERTS: 79 -->
 
-<h3>__Task 1: Identify entities__</h3>
+###Task 1: Identify entities__</h3>
 
 
 In relational databases, an __entity__ represents a __real-world object or concept__ that you want to store data about.

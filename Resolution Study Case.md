@@ -662,7 +662,7 @@ Set the Data type of the attributes transaction_id, product_id, and quantity as 
 
 To delete the same attributes from the entity sales_transaction, click on the table on the screen to highlight it, then proceed by clicking on the pencil icon on the upper part of the screen.
 
-![Screenshot 20](images/image20.png "image_tooltip")
+![Screenshot 20](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2020.png?raw=true)
 
 
 Then, click on the “Columns” label, then click on the trash bins icons on the left of the column names “product_id”, “quantity”, and “price”, and finally, click on the “Save” button on the lower-right side of the screen.

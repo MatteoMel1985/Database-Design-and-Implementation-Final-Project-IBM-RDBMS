@@ -950,7 +950,7 @@ To create a view, in the right tree-view pane, click on the COFFEE icon under Da
 
 ![Screenshot 42](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2042.png?raw=true)
 
- On the “General” label of the “Create-View” window, write “staff_locations_view”.
+On the “General” label of the “Create-View” window, write “staff_locations_view”.
 
 Click the “Code” label and paste the following code:  
 
@@ -971,13 +971,13 @@ Then click on the Save button.
 
 On the tree-view pane on the right side of the screen, you should be able to see the dropdown of the Views updated with the “staff_location_view” icon.
 
-![Screenshot 44](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2044.png?raw=true)
+![Additional](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Additional.png?raw=true)
 
 ## **2.**
 
 To view all the rows, right click the “staff_location_views” icon and select “View/Edit Data”, then “All Rows”.
 
-![Screenshot 45](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2045.png?raw=true)
+![Screenshot 46](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2046.png?raw=true)
 
 You will be prompted again to the Query Tool, where the following SQL code  
 
@@ -989,30 +989,26 @@ SELECT * FROM public.staff_locations_view
 
 And all the rows will be visualised. 
 
-![Screenshot 46](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2046.png?raw=true)
+![Screenshot 47](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2047.png?raw=true)
 
 ## **3.**
 
 To save the view in CSV on my local computer, click on the downward arrow icon on the bar at the centre of the screen.
 
-![Screenshot 47](ttps://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2047.png?raw=true)
-
-The file will be automatically saved to the local disk. 
-
 ![Screenshot 48](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2048.png?raw=true)
+
+The file will be automatcally saved to the local disk. 
+
+![Screenshot 49](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2049.png?raw=true)
 
 ## **4.**
 
 Following is the Task7 screenshot.
 
-
-<p id="gdcalert49" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image49.jpg). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert50">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image49.jpg "image_tooltip")
+![Screenshot 50](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2050.jpg?raw=true)
 
 
-**Task 8: Create a materialized view and export the data**
+## **Task 8: Create a materialized view and export the data**
 
 A marketing consultant requires access to your product data in their MySQL database for a marketing campaign. You will create a materialized view in your PostgreSQL database that returns this information and export the results to a CSV file.
 

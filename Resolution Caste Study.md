@@ -1215,7 +1215,7 @@ Proceed by clicking the “Import” button at the bottom of the page.
 
 ![Screenshot 77](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2077.png?raw=true)
 
-## **4.**ttps://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2078.png?raw=true
+## **4.**
 
 If uploaded correctly, the page should appear as follows. 
 

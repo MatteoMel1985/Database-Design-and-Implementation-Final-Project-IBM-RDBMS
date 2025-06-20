@@ -4,7 +4,7 @@ In relational databases, an **entity** represents a **real-world object or conce
 
 In the given tables
 
-![Screenshot 1]([images/image1.png "image_tooltip"](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%201.png?raw=true))
+![Screenshot 1](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%201.png?raw=true)
 
 
 We can find the following entities:

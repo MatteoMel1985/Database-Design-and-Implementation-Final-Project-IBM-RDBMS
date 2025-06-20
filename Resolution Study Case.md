@@ -21,7 +21,9 @@ We can find the following entities:
 ## **Task 2: Identify attributes**
 
 ***In this task, you will identify the attributes for one of the entities that you plan to create.***  
+
 ***1. Using the information from the sample data in the image from Task 1, identify the attributes for the entity that will store the sales transaction data.***  
+
 ***2. Make a list of the sales transaction attributes that you identified.***
 
 

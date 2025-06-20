@@ -921,7 +921,7 @@ The Data Output pane will appear as follows.
 ![Screenshot 41](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2041.png?raw=true)
 
 
-**Task 7: Create a view and export the data**
+## **Task 7: Create a view and export the data**
 
 ***The external payroll company have requested a list of employees and the locations at which they work. This should not include the CEO or CFO who own the company. In this task, you will create a view in your PostgreSQL database that returns this information and export the results to a CSV file.***  
 

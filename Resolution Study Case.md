@@ -923,130 +923,87 @@ The Data Output pane will appear as follows.
 
 **Task 7: Create a view and export the data**
 
-The external payroll company have requested a list of employees and the locations at which they work. This should not include the CEO or CFO who own the company. In this task, you will create a view in your PostgreSQL database that returns this information and export the results to a CSV file.
+***The external payroll company have requested a list of employees and the locations at which they work. This should not include the CEO or CFO who own the company. In this task, you will create a view in your PostgreSQL database that returns this information and export the results to a CSV file.***  
 
+***1. In your COFFEE database, create a new view named staff_locations_view using the following SQL:***  
 
-
-1. In your COFFEE database, create a new view named staff_locations_view using the following SQL:
+```SQL
 
 SELECT staff.staff_id,
-
 staff.first_name,
-
 staff.last_name,
-
 staff.location
-
 FROM staff
-
 WHERE "position" NOT IN ('CEO', 'CFO');
 
+```
+  
+***2. View all the rows returned from the view.***  
 
+***3. Save the results of the query to a file named staff_locations_view.csv on your local computer storage.***  
 
-2. View all the rows returned from the view.
-3. Save the results of the query to a file named staff_locations_view.csv on your local computer storage.
-4. Take a screenshot of the view shown in the tree-view pane on the left-hand side of the page alongside the results in the Data Output pane, and save it as Task7.png or Task7.jpg.
+***4. Take a screenshot of the view shown in the tree-view pane on the left-hand side of the page alongside the results in the Data Output pane, and save it as Task7.png or Task7.jpg.***  
 
-**1.**
+## **1.**
 
 To create a view, in the right tree-view pane, click on the COFFEE icon under Databases, then open the Schemas’ dropdown, proceed with public, and then, right click the Views icon, select “Create”, and “View…”.
 
-
-
-<p id="gdcalert42" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image42.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert43">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image42.png "image_tooltip")
-
+![Screenshot 42](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2042.png?raw=true)
 
  On the “General” label of the “Create-View” window, write “staff_locations_view”.
 
-Click the “Code” label and paste the following code:
+Click the “Code” label and paste the following code:  
+
+```SQL
 
 SELECT staff.staff_id,
-
 staff.first_name,
-
 staff.last_name,
-
 staff.location
-
 FROM staff
-
 WHERE "position" NOT IN ('CEO', 'CFO');
+
+```  
 
 Then click on the Save button.
 
-
-
-<p id="gdcalert43" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image43.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert44">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image43.png "image_tooltip")
-
+![Screenshot 43](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2043.png?raw=true)
 
 On the tree-view pane on the right side of the screen, you should be able to see the dropdown of the Views updated with the “staff_location_view” icon.
 
+![Screenshot 44](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2044.png?raw=true)
 
-
-<p id="gdcalert44" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image44.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert45">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image44.png "image_tooltip")
-
-
-**2.**
+## **2.**
 
 To view all the rows, right click the “staff_location_views” icon and select “View/Edit Data”, then “All Rows”.
 
+![Screenshot 45](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2045.png?raw=true)
 
+You will be prompted again to the Query Tool, where the following SQL code  
 
-<p id="gdcalert45" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image45.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert46">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image45.png "image_tooltip")
-
-
-You will be prompted again to the Query Tool, where the following SQL code
+```SQL
 
 SELECT * FROM public.staff_locations_view
 
+```
+
 And all the rows will be visualised. 
 
+![Screenshot 46](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2046.png?raw=true)
 
-
-<p id="gdcalert46" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image46.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert47">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image46.png "image_tooltip")
-
-
-**3.**
+## **3.**
 
 To save the view in CSV on my local computer, click on the downward arrow icon on the bar at the centre of the screen.
 
-
-
-<p id="gdcalert47" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image47.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert48">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image47.png "image_tooltip")
-
+![Screenshot 47](ttps://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2047.png?raw=true)
 
 The file will be automatically saved to the local disk. 
 
+![Screenshot 48](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2048.png?raw=true)
 
-
-<p id="gdcalert48" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image48.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert49">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image48.png "image_tooltip")
-
-
-**4.**
+## **4.**
 
 Following is the Task7 screenshot.
-
 
 
 <p id="gdcalert49" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image49.jpg). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert50">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>

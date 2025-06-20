@@ -308,19 +308,14 @@ Click 9 times on the “+” on the upper-right part of the screen, so as to cre
 </table>
 
 
-**6.**
+## **6.**
 
 The ERD will appear on the page as follows (see also the file “Task3A” in the Tasks folder)
 
+![Screenshot 17](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2017.jpg?raw=true)
 
 
-<p id="gdcalert17" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image17.jpg). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert18">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image17.jpg "image_tooltip")
-
-
-**7.**
+## **7.**
 
 Repeat all the steps of point 5., insert “product” in the Name label, and fill the data in the table as follows. 
 
@@ -440,36 +435,28 @@ Repeat all the steps of point 5., insert “product” in the Name label, and fi
   </tr>
 </table>
 
-
-**8.**
+## **8.**
 
 The ERD will appear on the page as follows (see also the file “Task3B” in the Tasks folder)
 
-
-
-<p id="gdcalert18" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image18.jpg). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert19">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image18.jpg "image_tooltip")
-
-
+![alt_text](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2018.jpg?raw=true)
 
 ## **Task 4: Normalize tables**
 
-When reviewing your ERD you notice that it does not conform to second normal form. In this task, you will normalize some of the tables within the database.
+***When reviewing your ERD you notice that it does not conform to second normal form. In this task, you will normalize some of the tables within the database.***
 
 
 
-1. Review the data in the sales transaction table. Note that the transaction id column does not contain unique values because some transactions include multiple products.
-2. Determine which columns should be stored in a separate table to remove the repeating rows and to put this table into second normal form.
-3. Add a new table named sales_detail to the ERD, define the columns in the new table, and delete the moved columns from the sales transaction table, leaving a matching column in each of two tables to later create a relationship between them.
-4. Take a screenshot of your ERD and save it as Task4A.png or Task4A.jpg.
-5. Review the data in the product table. Note that the product category and product type columns contain redundant data.
-6. Determine which columns should be stored in a separate table to reduce redundant data and to put this table into second normal form.
-7. Add a new table named product_type to the ERD, define the columns in the new table, and delete the moved columns from the product table, , leaving a matching column in each of two tables to later create a relationship between them.
-8. Take a screenshot of your ERD and save it as Task4B.png or Task4B.jpg.
+***1. Review the data in the sales transaction table. Note that the transaction id column does not contain unique values because some transactions include multiple ***products.***
+***2. Determine which columns should be stored in a separate table to remove the repeating rows and to put this table into second normal form.***
+***3. Add a new table named sales_detail to the ERD, define the columns in the new table, and delete the moved columns from the sales transaction table, leaving a matching column in each of two tables to later create a relationship between them.***
+***4. Take a screenshot of your ERD and save it as Task4A.png or Task4A.jpg.***
+***5. Review the data in the product table. Note that the product category and product type columns contain redundant data.***
+***6. Determine which columns should be stored in a separate table to reduce redundant data and to put this table into second normal form.***
+***7. Add a new table named product_type to the ERD, define the columns in the new table, and delete the moved columns from the product table, , leaving a matching column in each of two tables to later create a relationship between them.***
+***8. Take a screenshot of your ERD and save it as Task4B.png or Task4B.jpg.***
 
-**1.**
+## **1.**
 
 The second normal form (2NF) is a level of database normalization used to reduce data redundancy and improve data integrity in relational databases.
 

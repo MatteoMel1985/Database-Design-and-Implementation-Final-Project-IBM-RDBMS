@@ -67,42 +67,27 @@ Specifically to entity *sales_transaction*, we can identify the following attrib
 
 ***8. Take a screenshot of your ERD and save it as Task3B.png or Task3B.jpg.***
 
-**1.**
+## **1.**
 
 On the ribbon in the upper part of the EDI, click on “Terminal”, and then “New Terminal”
 
+![Screenshot 4](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%204.png?raw=true)
 
 
-<p id="gdcalert4" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image4.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert5">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image4.png "image_tooltip")
-
-
-**2.**
+## **2.**
 
 For a manual start, on the upper-left side of the EDI, click in the following order: “DATABASES”, then “PostgreSQL”, and “Create”.
 
-
-
-<p id="gdcalert5" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image5.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert6">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image5.png "image_tooltip")
+![Screenshot 5](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%205.png?raw=true)
 
 
 Wait until it fully loads.
 
-**3.**
+## **3.**
 
 Click on the button “pgAdmin”
 
-
-
-<p id="gdcalert6" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image6.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert7">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image6.png "image_tooltip")
+![Screenshot 6](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%206.png?raw=true)
 
 
 Wait for the page to load, or copy the link and paste it in a different tab of your browser.

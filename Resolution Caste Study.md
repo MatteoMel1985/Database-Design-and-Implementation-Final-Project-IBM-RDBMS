@@ -1087,10 +1087,7 @@ The CSV will be automatically downloaded to your folder.
 
 ## **5.**
 
-Following is the Tas8 screenshot.
-
-<p id="gdcalert59" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image59.jpg). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert60">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
+Following is the Task8 screenshot.
 
 ![Screenshot 59](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2059.jpg?raw=true)
 

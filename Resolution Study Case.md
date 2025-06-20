@@ -1010,159 +1010,103 @@ Following is the Task7 screenshot.
 
 ## **Task 8: Create a materialized view and export the data**
 
-A marketing consultant requires access to your product data in their MySQL database for a marketing campaign. You will create a materialized view in your PostgreSQL database that returns this information and export the results to a CSV file.
+***A marketing consultant requires access to your product data in their MySQL database for a marketing campaign. You will create a materialized view in your PostgreSQL database that returns this information and export the results to a CSV file.***  
 
+***1. In your COFFEE database, create a new materialized view named product_info_m-view using the following SQL:***  
 
-
-1. In your COFFEE database, create a new materialized view named product_info_m-view using the following SQL:
+```SQL
 
 SELECT product.product_name, product.description, product_type.product_category
-
 FROM product
-
 JOIN product_type
-
 ON product.product_type_id = product_type.product_type_id;
 
+```  
 
+***2. Refresh the materialized view with data.***  
 
-2. Refresh the materialized view with data.
-3. View all the rows returned from the view.
-4. Save the results of the query to a file named product_info_m-view.csv on your local computer storage.
-5. Take a screenshot of the view shown in the tree-view pane on the left-hand side of the page alongside the results in the Data Output pane, and save it as Task8.png or Task8.jpg.
+***3. View all the rows returned from the view.***  
 
-**1.**
+***4. Save the results of the query to a file named product_info_m-view.csv on your local computer storage.***  
+
+***5. Take a screenshot of the view shown in the tree-view pane on the left-hand side of the page alongside the results in the Data Output pane, and save it as Task8.png or Task8.jpg.***  
+
+## **1.**
 
 Similarly to the point 1 of Task1, to create a view, in the right tree-view pane, click on the COFFEE icon under Databases, then open the Schemas’ dropdown, proceed with public, and then, right click the Materialized Views icon, select “Create”, and “Materialized View…”.
 
-
-
-<p id="gdcalert50" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image50.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert51">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image50.png "image_tooltip")
-
+![Screenshot 51](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2051.png?raw=true)
 
 On the Name parameter from the General section of the Create - Materialized View window, type “product_info_m-view”.
 
+![Screenshot 52](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2052.png?raw=true)
 
+Then, click on the Code tab, paste the following code, and click on the Save button.  
 
-<p id="gdcalert51" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image51.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert52">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image51.png "image_tooltip")
-
-
-Then, click on the Code tab, paste the following code, and click on the Save button.
+```SQL
 
 SELECT product.product_name, product.description, product_type.product_category
-
 FROM product
-
 JOIN product_type
-
 ON product.product_type_id = product_type.product_type_id;
 
-
-
-<p id="gdcalert52" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image52.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert53">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image52.png "image_tooltip")
-
+```  
+![Screnshoot 53](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2053.png?raw=true)
 
 The “product_info_m-view” will appear in the dropdown on the Materialized Views of the tree-view pane.
 
+![Masterialised View](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Matarialised%20View.png?raw=true)
 
-
-<p id="gdcalert53" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image53.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert54">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image53.png "image_tooltip")
-
-
-**2.**
+## **2.**
 
 Right-click on the “product_info_m-view” icon and select “Refresh View”, then click on “With data”.
 
+![Screenshot 54](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2054.png?raw=true)
 
+The following banners should appear on the lower-right side of your screen
 
-<p id="gdcalert54" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image54.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert55">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+![Screenshot 55](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2055.png?raw=true)
 
-
-![alt_text](images/image54.png "image_tooltip")
-
-
-The following banners should appear on the lower-right side of your screen.
-
-
-
-<p id="gdcalert55" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image55.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert56">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image55.png "image_tooltip")
-
-
-**3.**
+## **3.**
 
 To view all rows returned from the view, right-click again on the “product_info_m-view” icon and select “View/Edit Data”, then click on “All Rows”.
 
-
-
-<p id="gdcalert56" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image56.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert57">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image56.png "image_tooltip")
-
+![Screenshot 56](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2056.png?raw=true)
 
 You will be prompted to the Query Tool, showing all rows as follows. 
 
+![Screenshot 57](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2057.png?raw=true)
 
-
-<p id="gdcalert57" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image57.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert58">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image57.png "image_tooltip")
-
-
-**4.**
+## **4.**
 
 To save the view in CSV format on my local computer, click on the downward arrow icon on the bar at the centre of the screen.
 
-
-
-<p id="gdcalert58" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image58.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert59">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image58.png "image_tooltip")
-
+![Screenshot 58](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2058.png?raw=true)
 
 The CSV will be automatically downloaded to your folder. 
 
-**5.**
+## **5.**
 
 Following is the Tas8 screenshot.
-
-
 
 <p id="gdcalert59" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image59.jpg). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert60">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
-![alt_text](images/image59.jpg "image_tooltip")
+![Screenshot 59](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2059.jpg?raw=true)
 
+## **Task 9: Import data into a Db2 database**  
 
-**Task 9: Import data into a Db2 databas**e
+***The external payroll company have asked you to upload the staff location information to their Db2 database.***
 
-The external payroll company have asked you to upload the staff location information to their Db2 database.
+***1. In a new browser tab, go to [https://cloud.ibm.com/login](https://cloud.ibm.com/login), log in using your credentials, and then open a console for your Db2 on Cloud instance that you created earlier in this course.***  
 
+***2. Use the Load Data feature to load a new table named STAFF_LOCATIONS with the staff location information saved in the staff_locations_view.csv file that you exported from the view you created in Task 7.***  
 
+***3. Explore the new table and then view the data in it.***  
 
-1. In a new browser tab, go to [https://cloud.ibm.com/login](https://cloud.ibm.com/login), log in using your credentials, and then open a console for your Db2 on Cloud instance that you created earlier in this course.
-2. Use the Load Data feature to load a new table named STAFF_LOCATIONS with the staff location information saved in the staff_locations_view.csv file that you exported from the view you created in Task 7.
-3. Explore the new table and then view the data in it.
-4. Take a screenshot of the contents of the new table and save it as Task9.png or Task9.jpg.
+***4. Take a screenshot of the contents of the new table and save it as Task9.png or Task9.jpg.***  
 
-**1.**
+## **1.**
 
 Click on the following link:
 
@@ -1172,234 +1116,118 @@ Proceed by logging in with your credentials and you will be prompted in the IBM 
 
 Click on the “Resource List” icon on the upper-left side of the screen.
 
-
-
-<p id="gdcalert60" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image60.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert61">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image60.png "image_tooltip")
-
+![Screenshot 60](ihttps://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2060.png?raw=true)
 
 Once in the Resource List page, click on the dropdown icon next to “Databases”, and select Db2-i8.
 
-
-
-<p id="gdcalert61" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image61.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert62">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image61.png "image_tooltip")
-
+![Screenshot 61](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2061.png?raw=true)
 
 Then click on the “Go to UI” button.
 
-
-
-<p id="gdcalert62" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image62.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert63">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image62.png "image_tooltip")
-
+![Screenshot 62](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2062.png?raw=true)
 
 Once inside Db2-i8, click on the Data icon on the left-side pane of the screen.
 
+![Screenshot 63](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2063.png?raw=true)
 
-
-<p id="gdcalert63" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image63.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert64">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image63.png "image_tooltip")
-
-
-**2.**
+## **2.**
 
 Once prompted on the page, the “Load Data” tab will be automatically selected. Drop the staff_locations_view.csv file on the screen (or alternatively, click on the hyperlink “Drag a file here or browse files”), and click on the “Next” button on the lower-right corner.
 
-
-
-<p id="gdcalert64" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image64.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert65">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image64.png "image_tooltip")
-
+![Screenshot 64](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2064.png?raw=true)
 
 On the next page, click on the schema, then click on “New table”, name it “STAFF_LOCATIONS”, and then click the “Create” button.
 
-
-
-<p id="gdcalert65" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image65.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert66">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image65.png "image_tooltip")
-
+![Screenshot 65](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2065.png?raw=true)
 
 Ensure that the “STAFF_LOCATIONS” table is checked, and click on the “Next” button. 
 
-
-
-<p id="gdcalert66" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image66.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert67">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image66.png "image_tooltip")
-
+![Screenshot 66](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2066.png?raw=true)
 
 On the following page, click the “Begin Load” button in the lower right corner. 
 
-
-
-<p id="gdcalert67" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image67.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert68">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image67.png "image_tooltip")
-
+![Screenshot 67](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2067.png?raw=true)
 
 Once the csv file is loaded, the screen should appear as follows. Proceed by clicking on the hyperlink “View Table”.
 
+![Screenshot 68](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2068.png?raw=true)
 
-
-<p id="gdcalert68" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image68.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert69">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image68.png "image_tooltip")
-
-
-**3.**
+## **3.**
 
 Scroll through the data and explore the table as you prefer. 
 
-**4.**
+## **4.**
 
 Following is the Task9 screenshot. 
 
-**Task 10: Import data into a MySQL database**
+![Task 9](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Task9.jpg?raw=true)
 
-The marketing consultant has asked you to upload the product information to their MySQL database.
+## **Task 10: Import data into a MySQL database**
 
+***The marketing consultant has asked you to upload the product information to their MySQL database.***  
 
+***1. In the terminal from the side-by-side Cloud IDE, use the start_mysql command to start a My SQL service session in the Cloud IDE.***  
 
-1. In the terminal from the side-by-side Cloud IDE, use the start_mysql command to start a My SQL service session in the Cloud IDE.
-2. Use the browser weblink to open phpMyAdmin in a new tab in your browser.
-3. In phpMyAdmin, create a new database named coffee_shop_products, and then import the product information saved in the product_info_m-view.csv file from your materialized view into a new table in the coffee_shop_products database.
-4. Browse the contents of the new table.
-5. Take a screenshot of the contents of the new table and save it as Task10.png or Task10.jpg.
+***2. Use the browser weblink to open phpMyAdmin in a new tab in your browser.***  
 
-**1.**
+***3. In phpMyAdmin, create a new database named coffee_shop_products, and then import the product information saved in the product_info_m-view.csv file from your materialized view into a new table in the coffee_shop_products database.***  
+
+***4. Browse the contents of the new table.***  
+
+***5. Take a screenshot of the contents of the new table and save it as Task10.png or Task10.jpg.***  
+
+## **1.**
 
 In a similar fashion as with opening PostgreSQL, click on the “Skills Network Toolbox” icon, then select “Databases”, “MySQL”, and finally, click on the “Create” button.
 
+![Screenshot 69](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2069.png?raw=true)
 
-
-<p id="gdcalert69" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image69.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert70">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image69.png "image_tooltip")
-
-
-**2.**
+## **2.**
 
 Once active, click on the “Open in new browser tab” button.
 
+![Screenshot 70](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2070.png?raw=true)
 
-
-<p id="gdcalert70" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image70.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert71">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image70.png "image_tooltip")
-
-
-**3.**
+## **3.**
 
 On the tree-view on the left pane of the screen, click on the “New” icon.
 
-
-
-<p id="gdcalert71" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image71.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert72">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image71.png "image_tooltip")
-
+![Screenshot 71](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2071.png?raw=true)
 
 Proceed by naming the database as “coffee_shop_products”, and click the “Create” button.
 
-
-
-<p id="gdcalert72" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image72.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert73">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image72.png "image_tooltip")
-
+![Screenshot 72](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2072.png?raw=true)
 
 Click on the “Import” tab on the top bar of the screen.
 
-
-
-<p id="gdcalert73" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image73.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert74">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image73.png "image_tooltip")
-
+![Screenshot 73](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2073.png?raw=true)
 
 Click on the “Choose File” button in the “File to import” section.
 
-
-
-<p id="gdcalert74" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image74.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert75">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image74.png "image_tooltip")
-
+![Screenshot 74](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2074.png?raw=true)
 
 Select “product_info_m_view.csv” and click on the “Open” button.
 
-
-
-<p id="gdcalert75" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image75.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert76">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image75.png "image_tooltip")
-
+![Screenshot 75](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2075.png?raw=true)
 
 On the “Format” section, ensure to select “CSV”.
 
-
-
-<p id="gdcalert76" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image76.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert77">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image76.png "image_tooltip")
-
+![Screenshot 76](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2076.png?raw=true)
 
 Proceed by clicking the “Import” button at the bottom of the page. 
 
+![Screenshot 77](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2077.png?raw=true)
 
-
-<p id="gdcalert77" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image77.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert78">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image77.png "image_tooltip")
-
-
-**4.**
+## **4.**ttps://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2078.png?raw=true
 
 If uploaded correctly, the page should appear as follows. 
 
 Click on the “product_info_m_view” icon on the tree-view of the left-side screen pane. 
 
+![Screenshot 78](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2078.png?raw=true)
 
-
-<p id="gdcalert78" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image78.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert79">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image78.png "image_tooltip")
-
-
-**5.**
+## **5.**
 
 Following is the Task10 screenshot. Feel free to explore the table as you wish. 
 
-
-
-<p id="gdcalert79" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image79.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert80">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image79.png "image_tooltip")
-
+![Screenshot 79](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2079.png?raw=true)

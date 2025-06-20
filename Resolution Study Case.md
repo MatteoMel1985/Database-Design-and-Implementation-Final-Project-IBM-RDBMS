@@ -140,12 +140,7 @@ On the “General” tab of the new screen, under the “Name” lable, write �
 
 Click 9 times on the “+” on the upper-right part of the screen, so as to create 9 rows, then fill the data as reported on the table, and click the “Save” button. 
 
-
-
-<p id="gdcalert16" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image16.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert17">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image16.png "image_tooltip")
+![Screenshot 16](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2016.png?raw=true)
 
 
 

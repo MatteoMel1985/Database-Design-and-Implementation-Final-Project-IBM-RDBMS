@@ -69,7 +69,7 @@ Specifically to entity *sales_transaction*, we can identify the following attrib
 
 ## **1.**
 
-On the ribbon in the upper part of the EDI, click on “Terminal”, and then “New Terminal”
+On the ribbon in the upper part of the EDI, click on “Terminal”, and then “New Terminal”.
 
 ![Screenshot 4](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%204.png?raw=true)
 
@@ -92,98 +92,50 @@ Click on the button “pgAdmin”
 
 Wait for the page to load, or copy the link and paste it in a different tab of your browser.
 
+![Screenshot 7](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%207.png?raw=true)
 
 
-<p id="gdcalert7" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image7.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert8">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image7.png "image_tooltip")
-
-
-**4.**
+## **4.**
 
 On the upper left side of the screen, click on the icon “Servers”. 
 
 To enter the server, you will be requested to enter the password of the user “postgres”.
 
-
-
-<p id="gdcalert8" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image8.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert9">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image8.png "image_tooltip")
+![Screenshot 8](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%208.png?raw=true)
 
 
 To get the password,go back to the PostgreSQL tab, click on “Connection Information”, copy the string in the POSTGRES_PASSWORD section, and paste it into pgAdmin, then click on the OK button.
 
+![Screenshot 9](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%209.png?raw=true)
 
-
-<p id="gdcalert9" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image9.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert10">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image9.png "image_tooltip")
-
-
-
-
-<p id="gdcalert10" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image10.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert11">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image10.png "image_tooltip")
+![Screenshot 10](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2010.png?raw=true)
 
 
 Right click on the “Databases” icon on the left side of the screen, then select “Create”, and “Database…”.
 
-
-
-<p id="gdcalert11" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image11.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert12">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image11.png "image_tooltip")
+![Screenshot 11](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2011.png?raw=true)
 
 
 On the newly opened panel, write “COFFEE” in the “Database” label, then, press the “Save” button.
 
-
-
-<p id="gdcalert12" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image12.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert13">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image12.png "image_tooltip")
+![Screenshot 12](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2012.png?raw=true)
 
 
 Check the upper left side of the screen, and select the icon “COFFEE” under “Databases”, then, click on the arrow of the icon “Schemas” and observe the options listed. Finally, go back to “COFFEE” icon and right-click it. Select “ERD For Database”.
 
+![Screenshot 13](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2013.png?raw=true)
 
 
-<p id="gdcalert13" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image13.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert14">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image13.png "image_tooltip")
-
-
-**5.**
+## **5.**
 
 Click on the “+” icon on the ERD page.
 
-
-
-<p id="gdcalert14" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image14.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert15">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image14.png "image_tooltip")
+![Screenshot 14](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2014.png?raw=true)
 
 
 On the “General” tab of the new screen, under the “Name” lable, write “sales_transaction”; then, proceed by clicking on the “Columns” tab.
 
-
-
-
-
-<p id="gdcalert15" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image15.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert16">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image15.png "image_tooltip")
+![Screenshot 15](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2015.png?raw=true)
 
 
 Click 9 times on the “+” on the upper-right part of the screen, so as to create 9 rows, then fill the data as reported on the table, and click the “Save” button. 

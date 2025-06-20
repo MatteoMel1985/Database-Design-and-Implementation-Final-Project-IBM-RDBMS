@@ -20,7 +20,11 @@ We can find the following entities:
 
 ## **Task 2: Identify attributes**
 
-#### In this task, you will identify the attributes for one of the entities that you plan to create.  1. Using the information from the sample data in the image from Task 1, identify the attributes for the entity that will store the sales transaction data.  2. Make a list of the sales transaction attributes that you identified.
+***In this task, you will identify the attributes for one of the entities that you plan to create.*** 
+
+***1. Using the information from the sample data in the image from Task 1, identify the attributes for the entity that will store the sales transaction data.***  
+
+***2. Make a list of the sales transaction attributes that you identified.***
 
 
 In a database table, attributes are the columns.
@@ -44,32 +48,24 @@ Specifically to entity *sales_transaction*, we can identify the following attrib
 
 ## **Task 3: Create an ERD**
 
-Now that you have defined some of your attributes and entities, you can determine the tables and columns for them and create an ERD.
+***Now that you have defined some of your attributes and entities, you can determine the tables and columns for them and create an ERD.***
 
 
 
-1. Open a new terminal from the side-by-side Cloud IDE.
-2. Use the start_postgres command to start a PostgreSQL service session in the Cloud IDE.
-3. Use the pgAdmin weblink to open pgAdmin in a new tab in your browser.
-4. Create a new database named COFFEE, view the schemas in the new COFFEE database, and then start a new ERD project.
-5. Add a table to the ERD for the sale transactions entity using the information in the following table. Consider what naming convention to use so that your colleagues will be able to understand your data and to ensure that the names are valid in other RDBMS. And use the sample data shown in the image in Task 1 to determine appropriate data types for each column. \
+***1. Open a new terminal from the side-by-side Cloud IDE.***
+***2. Use the start_postgres command to start a PostgreSQL service session in the Cloud IDE.***
+***3. Use the pgAdmin weblink to open pgAdmin in a new tab in your browser.***
+***4. Create a new database named COFFEE, view the schemas in the new COFFEE database, and then start a new ERD project.***
+***5. Add a table to the ERD for the sale transactions entity using the information in the following table. Consider what naming convention to use so that your colleagues will be able to understand your data and to ensure that the names are valid in other RDBMS. And use the sample data shown in the image in Task 1 to determine appropriate data types for each column.***
 
+![Screenshot 2](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%202.png?raw=true)
 
-<p id="gdcalert2" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image2.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert3">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+***6. Take a screenshot of your ERD and save it as Task3A.png or Task3A.jpg.***
+***7. Add a table to the ERD for the product entity using the information in the following table. Consider what naming convention to use so that your colleagues will be able to understand your data and to ensure that the names are valid in other RDBMS. And use the sample data shown in the image in Task 1 to determine appropriate data types for each column.***
 
+![Screenshot 3](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%203.png?raw=true)
 
-![alt_text](images/image2.png "image_tooltip")
-
-6. Take a screenshot of your ERD and save it as Task3A.png or Task3A.jpg.
-7. Add a table to the ERD for the product entity using the information in the following table. Consider what naming convention to use so that your colleagues will be able to understand your data and to ensure that the names are valid in other RDBMS. And use the sample data shown in the image in Task 1 to determine appropriate data types for each column. \
-
-
-<p id="gdcalert3" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image3.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert4">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image3.png "image_tooltip")
-
-8. Take a screenshot of your ERD and save it as Task3B.png or Task3B.jpg.
+***8. Take a screenshot of your ERD and save it as Task3B.png or Task3B.jpg.***
 
 **1.**
 

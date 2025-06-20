@@ -439,62 +439,56 @@ Repeat all the steps of point 5., insert “product” in the Name label, and fi
 
 The ERD will appear on the page as follows (see also the file “Task3B” in the Tasks folder)
 
-![alt_text](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2018.jpg?raw=true)
+![Screenshot 18](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2018.jpg?raw=true)
 
 ## **Task 4: Normalize tables**
 
 ***When reviewing your ERD you notice that it does not conform to second normal form. In this task, you will normalize some of the tables within the database.***
 
+***1. Review the data in the sales transaction table. Note that the transaction id column does not contain unique values because some transactions include multiple products.***  
 
+***2. Determine which columns should be stored in a separate table to remove the repeating rows and to put this table into second normal form.***  
 
-***1. Review the data in the sales transaction table. Note that the transaction id column does not contain unique values because some transactions include multiple ***products.***
-***2. Determine which columns should be stored in a separate table to remove the repeating rows and to put this table into second normal form.***
-***3. Add a new table named sales_detail to the ERD, define the columns in the new table, and delete the moved columns from the sales transaction table, leaving a matching column in each of two tables to later create a relationship between them.***
-***4. Take a screenshot of your ERD and save it as Task4A.png or Task4A.jpg.***
-***5. Review the data in the product table. Note that the product category and product type columns contain redundant data.***
-***6. Determine which columns should be stored in a separate table to reduce redundant data and to put this table into second normal form.***
-***7. Add a new table named product_type to the ERD, define the columns in the new table, and delete the moved columns from the product table, , leaving a matching column in each of two tables to later create a relationship between them.***
-***8. Take a screenshot of your ERD and save it as Task4B.png or Task4B.jpg.***
+***3. Add a new table named sales_detail to the ERD, define the columns in the new table, and delete the moved columns from the sales transaction table, leaving a matching column in each of two tables to later create a relationship between them.***  
+
+***4. Take a screenshot of your ERD and save it as Task4A.png or Task4A.jpg.***  
+
+***5. Review the data in the product table. Note that the product category and product type columns contain redundant data.***  
+
+***6. Determine which columns should be stored in a separate table to reduce redundant data and to put this table into second normal form.***  
+
+***7. Add a new table named product_type to the ERD, define the columns in the new table, and delete the moved columns from the product table, , leaving a matching column in each of two tables to later create a relationship between them.***  
+
+***8. Take a screenshot of your ERD and save it as Task4B.png or Task4B.jpg.***  
+
 
 ## **1.**
 
 The second normal form (2NF) is a level of database normalization used to reduce data redundancy and improve data integrity in relational databases.
 
-
 ### **Definition of Second Normal Form (2NF):**
 
 A **relation is in 2NF** if:
 
-
-
 1. It is **already in First Normal Form (1NF)** (i.e., it has only atomic values and no repeating groups), **and**
 2. **All non-prime attributes are fully functionally dependent on the entire primary key**, not just part of it.
 
- \
+
 **Key Concepts:**
 
+* **Non-prime attribute**: An attribute that is *not* part of any candidate key. 
 
-
-* **Non-prime attribute**: An attribute that is *not* part of any candidate key. \
-
-* **Full functional dependency**: A non-prime attribute depends on the *whole* primary key, not just a part of it. \
+* **Full functional dependency**: A non-prime attribute depends on the *whole* primary key, not just a part of it. 
 
 * This rule applies **only when the primary key is composite** (i.e., consists of more than one attribute). If the primary key is a single attribute, 2NF is automatically satisfied if the table is in 1NF.
 
 By reviewing the data in the sales_transaction table, we can observe that the column transaction_id does not contain unique values:
 
+![Screenshot 19](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2019.png?raw=true)
 
-
-<p id="gdcalert19" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image19.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert20">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image19.png "image_tooltip")
-
-
-**2.**
+## **2.**
 
 To remove the repeating rows and normalise the sales_transaction table, the following columns should be separated. 
-
 
 <table>
   <tr>
@@ -568,7 +562,6 @@ To remove the repeating rows and normalise the sales_transaction table, the foll
    </td>
   </tr>
 </table>
-
 
 By doing so, after deleting these columns from the table sales_transaction (except for transaction_id, its primary key), we remove all duplicate values from the attribute transaction_id, and we obtain an entity in the first normal form. 
 
@@ -661,7 +654,7 @@ By doing so, after deleting these columns from the table sales_transaction (exce
 </table>
 
 
-**3.**
+## **3.**
 
 Repeat the Task 3 steps 1, 2, 3, 4, 5, and 6 to create the “sales_detail” table, and insert the data of the first table of Task 4, point 2. 
 
@@ -669,45 +662,29 @@ Set the Data type of the attributes transaction_id, product_id, and quantity as 
 
 To delete the same attributes from the entity sales_transaction, click on the table on the screen to highlight it, then proceed by clicking on the pencil icon on the upper part of the screen.
 
-
-
-<p id="gdcalert20" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image20.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert21">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image20.png "image_tooltip")
+![Screenshot 20](images/image20.png "image_tooltip")
 
 
 Then, click on the “Columns” label, then click on the trash bins icons on the left of the column names “product_id”, “quantity”, and “price”, and finally, click on the “Save” button on the lower-right side of the screen.
 
+![Screenshot 21](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2021.png?raw=true)
 
 
-<p id="gdcalert21" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image21.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert22">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image21.png "image_tooltip")
-
-
-**4.**
+## **4.**
 
 The ERD screenshot will appear as follows.
 
+![Screenshot 22](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2022.jpg?raw=true)
 
-
-<p id="gdcalert22" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image22.jpg). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert23">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image22.jpg "image_tooltip")
-
-
-**5.**
+## **5.**
 
 See point 1. of this same Task for the explanation of the second normal form.
 
-**6.**
+## **6.**
 
 By observing the entity product, we see that the attributes product_category, product_type, product_name, and description contain very long strings of characters. To set the product table in the second normal form, we can keep only it’s primary key, product_id, and price, and put all the aforementioned ones in the product_type table. 
 
-**7.**
+## **7.**
 
 Repeat the Task 3 steps 1, 2, 3, 4, 5, and 6 to create the “product_type” table, and insert the data of the following table.
 
@@ -766,41 +743,37 @@ Repeat the Task 3 steps 1, 2, 3, 4, 5, and 6 to create the “product_type” ta
 
 To delete the attributes product_category, product_type, product_name and description from the product entity, follow the steps shown in point 3. of this Task.
 
+![Screenshot 23](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2023.png?raw=true)
 
-
-<p id="gdcalert23" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image23.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert24">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image23.png "image_tooltip")
-
-
-**8.**
+## **8.**
 
 The screenshot will appear as follows.
 
-
-
-<p id="gdcalert24" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image24.jpg). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert25">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image24.jpg "image_tooltip")
+![Screenshot 24](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2024.jpg?raw=true)
 
 
 
 ## **Task 5: Define keys and relationships**
 
-After normalizing your tables, you can define their primary keys and define relationships between the tables in your ERD.
+***After normalizing your tables, you can define their primary keys and define relationships between the tables in your ERD.***
 
 
 
-1. Identify an appropriate column in each table to be a primary key and create the primary keys in the tables in your ERD.
-2. Take a screenshot of your ERD and save it as Task5A.png or Task5A.jpg.
-3. Identify the relationships between the following pairs of tables and then create the relationships in your ERD: sales_detail to sales_transaction \
- sales_detail to product \
- product to product_type
-4. Take a screenshot of your ERD and save it as Task5B.png or Task5B.jpg.
+***1. Identify an appropriate column in each table to be a primary key and create the primary keys in the tables in your ERD.***  
 
-**1.**
+***2. Take a screenshot of your ERD and save it as Task5A.png or Task5A.jpg.***  
+
+***3. Identify the relationships between the following pairs of tables and then create the relationships in your ERD: sales_detail to***
+
+ ***sales_transaction***  
+
+ ***sales_detail to product***  
+ 
+ ***product to product_type***  
+ 
+***4. Take a screenshot of your ERD and save it as Task5B.png or Task5B.jpg.***
+
+## **1.**
 
 No other primary keys are supposed to be set. “transaction_id” in the sales_detail entity is supposed to be a secondary key of the same attribute in sales_transaction; in the same fashion, both the attributes “product_id” appearing in the entities sales_detail and product_type are secondary keys of the “product_id” attribute of the product table.
 
@@ -808,36 +781,20 @@ No other primary keys are supposed to be set. “transaction_id” in the sales_
 
 The ERD will appear exactly as in Task4B. The same screenshot can be used for Task5A.
 
+![Screenshot 25](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2025.jpg?raw=true)
 
-
-<p id="gdcalert25" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image25.jpg). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert26">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image25.jpg "image_tooltip")
-
-
-**3**
+## **3**
 
 sales_transactions and sales_detail shares the “transaction_id” attribute. 
 
 To link them together, click on the sales_detail entity, then on the “1M” icon on the upper side of the screen.
 
-
-
-<p id="gdcalert26" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image26.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert27">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image26.png "image_tooltip")
+![Screenshot 26](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2026.png?raw=true)
 
 
 On “Local Column” select “transaction_id”, on “Referenced Table” select “(public) sales_transaction”, and finally, on “Referenced Column”, select “transaction_id”. Then, click on the “Save” button.
 
-
-
-<p id="gdcalert27" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image27.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert28">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image27.png "image_tooltip")
+![Screenshot 27](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2027.png?raw=true)
 
 
 Between sales_detail and product we find “product_id”; however, the primary key product_id is also intimately linked to transaction_id.
@@ -846,23 +803,11 @@ To link them together, click on the sales_detail entity, then on the “1M” ic
 
 On “Local Column” select “product_id”, on “Referenced Table” select “(public) product”, and finally, on “Referenced Column”, select “product_id”. Then, click on the “Save” button.
 
-
-
-<p id="gdcalert28" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image28.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert29">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image28.png "image_tooltip")
-
+![Screenshot 28](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2028.png?raw=true)
 
 To connect transaction_id to the primary key product_id, repeat the process, and select on Local Column “transaction_id”, for Referenced Table select “(public) product”; finally, for Referenced Column choose “product_id” and click on the save button.
 
-
-
-<p id="gdcalert29" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image29.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert30">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image29.png "image_tooltip")
-
+![Screenshot 29](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2029.png?raw=true)
 
 Between product and product_type we have “product_id”.
 
@@ -870,173 +815,110 @@ To link them together, click on the product entity, then on the “1M” icon on
 
 On “Local Column” select “product_id”, on “Referenced Table” select “(public) product_type”, and finally, on “Referenced Column”, select “product_id”. Then, click on the “Save” button.
 
+![Screenshot 30](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2030.png?raw=true)
 
-
-<p id="gdcalert30" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image30.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert31">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image30.png "image_tooltip")
-
-
-**4.**
+## **4.**
 
 The ERD screenshot will appear as follows.
 
+![Screenshot 31](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2031.png?raw=true)
 
+## **Task 6: Create database objects by generating and running the SQL script from the ERD Tool**
 
-<p id="gdcalert31" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image31.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert32">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+***Now that your design is complete, you will generate an SQL script from your ERD which you could use to create your database schema. For the purposes of this project, you will then use a provided SQL script to ensure that you will be able to successfully load the sample data into the schema. Finally, you will load the existing data from the various data sources into your new database schema.***  
 
+***1. Use the Generate SQL functionality in the ERD Tool to create an SQL script from your ERD.***  
 
-![alt_text](images/image31.png "image_tooltip")
+***2. Download the GeneratedScript.sql file below to your local computer storage. GeneratedScript.sql*** 
 
+***3. In pgAdmin, open the Query Tool, upload and open the GeneratedScript.sql file from your local computer storage, and then execute the script to create the tables defined in the ERD. Verify that the tables now exist in the public schema of the COFFEE database.***  
 
-**Task 6: Create database objects by generating and running the SQL script from the ERD Tool**
+***4. Take a screenshot of the tables shown in the tree-view pane on the left-hand side of the page and save it as Task6A.png or Task6A.jpg.***  
 
-Now that your design is complete, you will generate an SQL script from your ERD which you could use to create your database schema. For the purposes of this project, you will then use a provided SQL script to ensure that you will be able to successfully load the sample data into the schema. Finally, you will load the existing data from the various data sources into your new database schema.
+***5. Download the CoffeeData.sql file below to your local computer storage. CoffeeData.sql***  
 
+***6. In pgAdmin, open another instance of the Query Tool, upload and open the CoffeeData.sql file from your local computer storage, and then execute the script to populate the tables you just created.***  
 
+***7. In pgAdmin, view the first 100 rows of the sales_detail table.***  
 
-1. Use the Generate SQL functionality in the ERD Tool to create an SQL script from your ERD.
-2. Download the GeneratedScript.sql file below to your local computer storage. GeneratedScript.sql
-3. In pgAdmin, open the Query Tool, upload and open the GeneratedScript.sql file from your local computer storage, and then execute the script to create the tables defined in the ERD. Verify that the tables now exist in the public schema of the COFFEE database.
-4. Take a screenshot of the tables shown in the tree-view pane on the left-hand side of the page and save it as Task6A.png or Task6A.jpg.
-5. Download the CoffeeData.sql file below to your local computer storage. CoffeeData.sql
-6. In pgAdmin, open another instance of the Query Tool, upload and open the CoffeeData.sql file from your local computer storage, and then execute the script to populate the tables you just created.
-7. In pgAdmin, view the first 100 rows of the sales_detail table.
-8. Take a screenshot of the Data Output pane and save it as Task6B.png or Task6B.jpg.
+***8. Take a screenshot of the Data Output pane and save it as Task6B.png or Task6B.jpg.***  
 
- 
-
-**1.**
+## **1.**
 
 To do so, click on the SQL icon on the upper bar of the ERD screen.
 
-
-
-<p id="gdcalert32" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image32.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert33">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image32.png "image_tooltip")
-
+![Screenshot 32](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2032.png?raw=true)
 
 You will be prompted on the following page.
 
+![Screenshot 33](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2033.png?raw=true)
 
-
-<p id="gdcalert33" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image33.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert34">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image33.png "image_tooltip")
-
-
-**2.**
+## **2.**
 
 The GeneratedScript.sql file can be found in the SQL folder.
 
-**3.**
+## **3.**
 
 Click on a random area of the Query Tool, click ctrl+A to select all the script, and ctrl+Z to delete everything. 
 
 The screen should appear as follows.
 
+![Screenshot 34](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2034.png?raw=true)
 
-
-<p id="gdcalert34" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image34.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert35">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image34.png "image_tooltip")
-
-
-
-
-<p id="gdcalert35" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image35.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert36">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image35.png "image_tooltip")
-
+![Screenshot 35](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2035.png?raw=true)
 
 Now, drag the GeneratedScript.sql file into the Query Tool; it should automatically load the script, as shown in the image.
 
 Once visualised, click on the play-button icon in the top-centre of the screen and run it. 
 
+![Screenshot 36](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2036.png?raw=true)
 
-
-<p id="gdcalert36" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image36.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert37">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image36.png "image_tooltip")
-
-
-**4.**
+## **4.**
 
 In case the 7 tables are not immediately visualised, and you still see 4 of them in the list, left-click on the database “COFFEE” icon in the tree-view pane on the left side of the screen, then left-click on “Schemas”, then left clik “public”, and finally, right click on “Tables”, and select “Refresh”
 
-
-
-<p id="gdcalert37" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image37.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert38">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image37.png "image_tooltip")
-
+![Screenshot 37](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2037.png?raw=true)
 
 Once refreshed, the Tables icon with the dropdown opened should appear as follows. 
 
-**5.**
+## **5.**
 
 The CofeeData.sql file can be found in the SQL folder.
 
-**6.**
+## **6.**
 
 Right click on the COFFEE database and select again “ERD For Database”.
 
-
-
-<p id="gdcalert38" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image38.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert39">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image38.png "image_tooltip")
-
+![Screenshot 38](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2038.png?raw=true)
 
 In the ERD page, click on the SQL icon and access the Query Tool,
 
 Repeat what is shown in step 1. by clicking on the SQL icon. Remove again all the script by typing Ctrl+A and Ctrl+Z; then, run the script. 
 
+![Screenshot 39](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2039.png?raw=true)
 
 
-<p id="gdcalert39" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image39.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert40">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image39.png "image_tooltip")
-
-
-**7.**
+## **7.**
 
 To visualise the first 100 rows of the CoffeeData.sql file, click again on the COFFEE database and select “ERD For Database” as in point 6, then, click again on the SQL icon.
 
 On a random spot of the Query Tool, press again Ctrl+A and Ctrl+Z to cancel the whole text, and write the following SQL script:
 
+```SQL
+
 SELECT * FROM sales_detail LIMIT 100;
+
+```
 
 And run it by clicking on the Execute Query icon.
 
+![Screenshot 40](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2040.png?raw=true)
 
-
-<p id="gdcalert40" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image40.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert41">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image40.png "image_tooltip")
-
-
-**8.**
+## **8.**
 
 The Data Output pane will appear as follows. 
 
-
-
-<p id="gdcalert41" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image41.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert42">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image41.png "image_tooltip")
+![Screenshot 41](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2041.png?raw=true)
 
 
 **Task 7: Create a view and export the data**

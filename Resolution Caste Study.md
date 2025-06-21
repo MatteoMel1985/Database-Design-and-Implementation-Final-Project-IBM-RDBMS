@@ -910,7 +910,7 @@ SELECT * FROM sales_detail LIMIT 100;
 
 ```
 
-And run it by clicking on the Execute Query icon.
+Run it by clicking on the Execute Query icon.
 
 ![Screenshot 40](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2040.png?raw=true)
 

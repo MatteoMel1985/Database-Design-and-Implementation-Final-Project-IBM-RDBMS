@@ -6,17 +6,13 @@ In the given tables
 
 ![Screenshot 1](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%201.png?raw=true)
 
-
 We can find the following entities:
-
-
 
 * staff
 * sales_outlet
 * sales_transaction
 * customer
 * product
-
 
 ## **Task 2: Identify attributes**
 
@@ -26,14 +22,11 @@ We can find the following entities:
 
 ***2. Make a list of the sales transaction attributes that you identified.***
 
-
 In a database table, attributes are the columns.
 
 Each attribute represents a specific property or characteristic of the entity that the table is modeling.
 
 Specifically to entity *sales_transaction*, we can identify the following attributes:
-
-
 
 * transaction_id (primary key)
 * transaction_date
@@ -45,27 +38,29 @@ Specifically to entity *sales_transaction*, we can identify the following attrib
 * quantity
 * price
 
+## **Task 3: Create an ERD**  
 
-## **Task 3: Create an ERD**
+***Now that you have defined some of your attributes and entities, you can determine the tables and columns for them and create an ERD.***  
 
-***Now that you have defined some of your attributes and entities, you can determine the tables and columns for them and create an ERD.***
+***1. Open a new terminal from the side-by-side Cloud IDE.***  
 
+***2. Use the start_postgres command to start a PostgreSQL service session in the Cloud IDE.***  
 
+***3. Use the pgAdmin weblink to open pgAdmin in a new tab in your browser.***  
 
-***1. Open a new terminal from the side-by-side Cloud IDE.***
-***2. Use the start_postgres command to start a PostgreSQL service session in the Cloud IDE.***
-***3. Use the pgAdmin weblink to open pgAdmin in a new tab in your browser.***
-***4. Create a new database named COFFEE, view the schemas in the new COFFEE database, and then start a new ERD project.***
-***5. Add a table to the ERD for the sale transactions entity using the information in the following table. Consider what naming convention to use so that your colleagues will be able to understand your data and to ensure that the names are valid in other RDBMS. And use the sample data shown in the image in Task 1 to determine appropriate data types for each column.***
+***4. Create a new database named COFFEE, view the schemas in the new COFFEE database, and then start a new ERD project.***  
+
+***5. Add a table to the ERD for the sale transactions entity using the information in the following table. Consider what naming convention to use so that your colleagues will be able to understand your data and to ensure that the names are valid in other RDBMS. And use the sample data shown in the image in Task 1 to determine appropriate data types for each column.***  
 
 ![Screenshot 2](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%202.png?raw=true)
 
-***6. Take a screenshot of your ERD and save it as Task3A.png or Task3A.jpg.***
-***7. Add a table to the ERD for the product entity using the information in the following table. Consider what naming convention to use so that your colleagues will be able to understand your data and to ensure that the names are valid in other RDBMS. And use the sample data shown in the image in Task 1 to determine appropriate data types for each column.***
+***6. Take a screenshot of your ERD and save it as Task3A.png or Task3A.jpg.***  
+
+***7. Add a table to the ERD for the product entity using the information in the following table. Consider what naming convention to use so that your colleagues will be able to understand your data and to ensure that the names are valid in other RDBMS. And use the sample data shown in the image in Task 1 to determine appropriate data types for each column.***  
 
 ![Screenshot 3](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%203.png?raw=true)
 
-***8. Take a screenshot of your ERD and save it as Task3B.png or Task3B.jpg.***
+***8. Take a screenshot of your ERD and save it as Task3B.png or Task3B.jpg.***  
 
 ## **1.**
 
@@ -73,13 +68,11 @@ On the ribbon in the upper part of the EDI, click on “Terminal”, and then �
 
 ![Screenshot 4](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%204.png?raw=true)
 
-
 ## **2.**
 
 For a manual start, on the upper-left side of the EDI, click in the following order: “DATABASES”, then “PostgreSQL”, and “Create”.
 
 ![Screenshot 5](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%205.png?raw=true)
-
 
 Wait until it fully loads.
 
@@ -89,11 +82,9 @@ Click on the button “pgAdmin”
 
 ![Screenshot 6](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%206.png?raw=true)
 
-
 Wait for the page to load, or copy the link and paste it in a different tab of your browser.
 
 ![Screenshot 7](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%207.png?raw=true)
-
 
 ## **4.**
 
@@ -103,28 +94,23 @@ To enter the server, you will be requested to enter the password of the user “
 
 ![Screenshot 8](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%208.png?raw=true)
 
-
 To get the password,go back to the PostgreSQL tab, click on “Connection Information”, copy the string in the POSTGRES_PASSWORD section, and paste it into pgAdmin, then click on the OK button.
 
 ![Screenshot 9](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%209.png?raw=true)
 
 ![Screenshot 10](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2010.png?raw=true)
 
-
 Right click on the “Databases” icon on the left side of the screen, then select “Create”, and “Database…”.
 
 ![Screenshot 11](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2011.png?raw=true)
-
 
 On the newly opened panel, write “COFFEE” in the “Database” label, then, press the “Save” button.
 
 ![Screenshot 12](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2012.png?raw=true)
 
-
 Check the upper left side of the screen, and select the icon “COFFEE” under “Databases”, then, click on the arrow of the icon “Schemas” and observe the options listed. Finally, go back to “COFFEE” icon and right-click it. Select “ERD For Database”.
 
 ![Screenshot 13](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2013.png?raw=true)
-
 
 ## **5.**
 
@@ -132,17 +118,13 @@ Click on the “+” icon on the ERD page.
 
 ![Screenshot 14](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2014.png?raw=true)
 
-
 On the “General” tab of the new screen, under the “Name” lable, write “sales_transaction”; then, proceed by clicking on the “Columns” tab.
 
 ![Screenshot 15](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2015.png?raw=true)
 
-
 Click 9 times on the “+” on the upper-right part of the screen, so as to create 9 rows, then fill the data as reported on the table, and click the “Save” button. 
 
 ![Screenshot 16](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2016.png?raw=true)
-
-
 
 <table>
   <tr>
@@ -307,7 +289,6 @@ Click 9 times on the “+” on the upper-right part of the screen, so as to cre
   </tr>
 </table>
 
-
 ## **6.**
 
 The ERD will appear on the page as follows (see also the file “Task3A” in the Tasks folder)
@@ -318,7 +299,6 @@ The ERD will appear on the page as follows (see also the file “Task3A” in th
 ## **7.**
 
 Repeat all the steps of point 5., insert “product” in the Name label, and fill the data in the table as follows. 
-
 
 <table>
   <tr>
@@ -461,7 +441,6 @@ The ERD will appear on the page as follows (see also the file “Task3B” in th
 
 ***8. Take a screenshot of your ERD and save it as Task4B.png or Task4B.jpg.***  
 
-
 ## **1.**
 
 The second normal form (2NF) is a level of database normalization used to reduce data redundancy and improve data integrity in relational databases.
@@ -472,7 +451,6 @@ A **relation is in 2NF** if:
 
 1. It is **already in First Normal Form (1NF)** (i.e., it has only atomic values and no repeating groups), **and**
 2. **All non-prime attributes are fully functionally dependent on the entire primary key**, not just part of it.
-
 
 **Key Concepts:**
 
@@ -564,7 +542,6 @@ To remove the repeating rows and normalise the sales_transaction table, the foll
 </table>
 
 By doing so, after deleting these columns from the table sales_transaction (except for transaction_id, its primary key), we remove all duplicate values from the attribute transaction_id, and we obtain an entity in the first normal form. 
-
 
 <table>
   <tr>
@@ -664,11 +641,9 @@ To delete the same attributes from the entity sales_transaction, click on the ta
 
 ![Screenshot 20](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2020.png?raw=true)
 
-
 Then, click on the “Columns” label, then click on the trash bins icons on the left of the column names “product_id”, “quantity”, and “price”, and finally, click on the “Save” button on the lower-right side of the screen.
 
 ![Screenshot 21](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2021.png?raw=true)
-
 
 ## **4.**
 
@@ -687,7 +662,6 @@ By observing the entity product, we see that the attributes product_category, pr
 ## **7.**
 
 Repeat the Task 3 steps 1, 2, 3, 4, 5, and 6 to create the “product_type” table, and insert the data of the following table.
-
 
 <table>
   <tr>
@@ -740,7 +714,6 @@ Repeat the Task 3 steps 1, 2, 3, 4, 5, and 6 to create the “product_type” ta
   </tr>
 </table>
 
-
 To delete the attributes product_category, product_type, product_name and description from the product entity, follow the steps shown in point 3. of this Task.
 
 ![Screenshot 23](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2023.png?raw=true)
@@ -751,13 +724,9 @@ The screenshot will appear as follows.
 
 ![Screenshot 24](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2024.jpg?raw=true)
 
-
-
 ## **Task 5: Define keys and relationships**
 
-***After normalizing your tables, you can define their primary keys and define relationships between the tables in your ERD.***
-
-
+***After normalizing your tables, you can define their primary keys and define relationships between the tables in your ERD.***  
 
 ***1. Identify an appropriate column in each table to be a primary key and create the primary keys in the tables in your ERD.***  
 
@@ -791,11 +760,9 @@ To link them together, click on the sales_detail entity, then on the “1M” ic
 
 ![Screenshot 26](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2026.png?raw=true)
 
-
 On “Local Column” select “transaction_id”, on “Referenced Table” select “(public) sales_transaction”, and finally, on “Referenced Column”, select “transaction_id”. Then, click on the “Save” button.
 
 ![Screenshot 27](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2027.png?raw=true)
-
 
 Between sales_detail and product we find “product_id”; however, the primary key product_id is also intimately linked to transaction_id.
 
@@ -905,9 +872,7 @@ To visualise the first 100 rows of the CoffeeData.sql file, click again on the C
 On a random spot of the Query Tool, press again Ctrl+A and Ctrl+Z to cancel the whole text, and write the following SQL script:
 
 ```SQL
-
 SELECT * FROM sales_detail LIMIT 100;
-
 ```
 
 Run it by clicking on the Execute Query icon.
@@ -920,7 +885,6 @@ The Data Output pane will appear as follows.
 
 ![Screenshot 41](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2041.png?raw=true)
 
-
 ## **Task 7: Create a view and export the data**
 
 ***The external payroll company have requested a list of employees and the locations at which they work. This should not include the CEO or CFO who own the company. In this task, you will create a view in your PostgreSQL database that returns this information and export the results to a CSV file.***  
@@ -928,14 +892,12 @@ The Data Output pane will appear as follows.
 ***1. In your COFFEE database, create a new view named staff_locations_view using the following SQL:***  
 
 ```SQL
-
 SELECT staff.staff_id,
 staff.first_name,
 staff.last_name,
 staff.location
 FROM staff
 WHERE "position" NOT IN ('CEO', 'CFO');
-
 ```
   
 ***2. View all the rows returned from the view.***  
@@ -955,14 +917,12 @@ On the “General” label of the “Create-View” window, write “staff_locat
 Click the “Code” label and paste the following code:  
 
 ```SQL
-
 SELECT staff.staff_id,
 staff.first_name,
 staff.last_name,
 staff.location
 FROM staff
 WHERE "position" NOT IN ('CEO', 'CFO');
-
 ```  
 
 Then click on the Save button.
@@ -982,9 +942,7 @@ To view all the rows, right click the “staff_location_views” icon and select
 You will be prompted again to the Query Tool, where the following SQL code  
 
 ```SQL
-
 SELECT * FROM public.staff_locations_view
-
 ```
 
 And all the rows will be visualised. 
@@ -1007,7 +965,6 @@ Following is the Task7 screenshot.
 
 ![Screenshot 50](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2050.jpg?raw=true)
 
-
 ## **Task 8: Create a materialized view and export the data**
 
 ***A marketing consultant requires access to your product data in their MySQL database for a marketing campaign. You will create a materialized view in your PostgreSQL database that returns this information and export the results to a CSV file.***  
@@ -1015,12 +972,10 @@ Following is the Task7 screenshot.
 ***1. In your COFFEE database, create a new materialized view named product_info_m-view using the following SQL:***  
 
 ```SQL
-
 SELECT product.product_name, product.description, product_type.product_category
 FROM product
 JOIN product_type
 ON product.product_type_id = product_type.product_type_id;
-
 ```  
 
 ***2. Refresh the materialized view with data.***  
@@ -1044,13 +999,12 @@ On the Name parameter from the General section of the Create - Materialized View
 Then, click on the Code tab, paste the following code, and click on the Save button.  
 
 ```SQL
-
 SELECT product.product_name, product.description, product_type.product_category
 FROM product
 JOIN product_type
 ON product.product_type_id = product_type.product_type_id;
+```
 
-```  
 ![Screnshoot 53](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2053.png?raw=true)
 
 The “product_info_m-view” will appear in the dropdown on the Materialized Views of the tree-view pane.

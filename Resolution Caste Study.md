@@ -1067,7 +1067,7 @@ Proceed by logging in with your credentials and you will be prompted in the IBM 
 
 Click on the “Resource List” icon on the upper-left side of the screen.
 
-![Screenshot 60](ihttps://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2060.png?raw=true)
+![Screenshot 60](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2060.png?raw=true)
 
 Once in the Resource List page, click on the dropdown icon next to “Databases”, and select Db2-i8.
 

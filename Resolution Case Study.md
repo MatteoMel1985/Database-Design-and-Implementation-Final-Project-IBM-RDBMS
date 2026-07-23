@@ -92,7 +92,7 @@ On the upper left side of the screen, click on the icon “Servers”.
 
 To enter the server, you will be requested to enter the password of the user “postgres”.
 
-![Screenshot 8](https://res.cloudinary.com/dmrfsdtq2/image/upload/v1784202504/v0dabwd1u3b2ilrggs6d.png)
+![Screenshot 8](https://res.cloudinary.com/dmrfsdtq2/image/upload/v1784807868/Screenshot_8_mlrmqt.png)
 
 To get the password,go back to the PostgreSQL tab, click on “Connection Information”, copy the string in the POSTGRES_PASSWORD section, and paste it into pgAdmin, then click on the OK button.
 

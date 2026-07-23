@@ -1,4 +1,7 @@
-# Project : Database Design and Implementation
+![Skills_Network](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMSkillsNetwork-PY0221EN-Coursera/images/image.png)
+
+<h1 align="center">Project : Database Design and Implementation</h1>
+
 ## Scenario  
 In this scenario, you have recently been hired as a Data Engineer by a New York based coffee shop chain that is looking to expand nationally by opening a number of franchise locations. As part of their expansion process, they want to streamline operations and revamp their data infrastructure.
 
@@ -140,3 +143,5 @@ The marketing consultant has asked you to upload the product information to thei
 4. Browse the contents of the new table.
 5. Take a screenshot of the contents of the new table and save it as Task10.png or Task10.jpg.
 
+# Author
+# ***[Matteo Meloni](https://www.linkedin.com/in/matteo-meloni-40a357154/)***

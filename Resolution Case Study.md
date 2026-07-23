@@ -877,13 +877,13 @@ SELECT * FROM sales_detail LIMIT 100;
 
 Run it by clicking on the Execute Query icon.
 
-![Screenshot 40](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2040.png?raw=true)
+![Screenshot 40](https://res.cloudinary.com/dmrfsdtq2/image/upload/v1784202500/yefhkvapvop0yhm45bdq.png)
 
 ## **8.**
 
 The Data Output pane will appear as follows. 
 
-![Screenshot 41](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2041.png?raw=true)
+![Screenshot 41](https://res.cloudinary.com/dmrfsdtq2/image/upload/v1784202501/at0jwyq21rl9eoyhb5u5.png)
 
 ## **Task 7: Create a view and export the data**
 
@@ -910,7 +910,7 @@ WHERE "position" NOT IN ('CEO', 'CFO');
 
 To create a view, in the right tree-view pane, click on the COFFEE icon under Databases, then open the Schemas’ dropdown, proceed with public, and then, right click the Views icon, select “Create”, and “View…”.
 
-![Screenshot 42](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2042.png?raw=true)
+![Screenshot 42](https://res.cloudinary.com/dmrfsdtq2/image/upload/v1784202501/aemavgbcyg3juplwoleq.png)
 
 On the “General” label of the “Create-View” window, write “staff_locations_view”.
 
@@ -927,17 +927,17 @@ WHERE "position" NOT IN ('CEO', 'CFO');
 
 Then click on the Save button.
 
-![Screenshot 43](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2043.png?raw=true)
+![Screenshot 43](https://res.cloudinary.com/dmrfsdtq2/image/upload/v1784202502/yqtom5dif6x6xm808zey.png)
 
 On the tree-view pane on the right side of the screen, you should be able to see the dropdown of the Views updated with the “staff_location_view” icon.
 
-![Additional](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Additional.png?raw=true)
+![Additional](https://res.cloudinary.com/dmrfsdtq2/image/upload/v1784202498/c0wbxnlvwm09jtkrtinv.png)
 
 ## **2.**
 
 To view all the rows, right click the “staff_location_views” icon and select “View/Edit Data”, then “All Rows”.
 
-![Screenshot 46](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2046.png?raw=true)
+![Screenshot 46](https://res.cloudinary.com/dmrfsdtq2/image/upload/v1784202501/z0qvo3omjxtfg1kgprag.png)
 
 You will be prompted again to the Query Tool, where the following SQL code  
 
@@ -947,7 +947,7 @@ SELECT * FROM public.staff_locations_view
 
 And all the rows will be visualised. 
 
-![Screenshot 47](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2047.png?raw=true)
+![Screenshot 47](https://res.cloudinary.com/dmrfsdtq2/image/upload/v1784202501/ebgcop6wc0h1vyatqxk4.png)
 
 ## **3.**
 

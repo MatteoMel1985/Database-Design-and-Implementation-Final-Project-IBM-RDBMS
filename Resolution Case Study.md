@@ -953,17 +953,17 @@ And all the rows will be visualised.
 
 To save the view in CSV on my local computer, click on the downward arrow icon on the bar at the centre of the screen.
 
-![Screenshot 48](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2048.png?raw=true)
+![Screenshot 48](https://res.cloudinary.com/dmrfsdtq2/image/upload/v1784202503/sikmt89hn9eeh7imkpwk.png)
 
 The file will be automatcally saved to the local disk. 
 
-![Screenshot 49](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2049.png?raw=true)
+![Screenshot 49](https://res.cloudinary.com/dmrfsdtq2/image/upload/v1784202501/sxhzcowbv8jle8qli2sg.png)
 
 ## **4.**
 
 Following is the Task7 screenshot.
 
-![Screenshot 50](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2050.jpg?raw=true)
+![Screenshot 50](https://res.cloudinary.com/dmrfsdtq2/image/upload/v1784808672/Screenshot_50_yjto6l.jpg)
 
 ## **Task 8: Create a materialized view and export the data**
 
@@ -990,7 +990,7 @@ ON product.product_type_id = product_type.product_type_id;
 
 Similarly to the point 1 of Task1, to create a view, in the right tree-view pane, click on the COFFEE icon under Databases, then open the Schemas’ dropdown, proceed with public, and then, right click the Materialized Views icon, select “Create”, and “Materialized View…”.
 
-![Screenshot 51](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2051.png?raw=true)
+![Screenshot 51](https://res.cloudinary.com/dmrfsdtq2/image/upload/v1784202503/oegmq6m6ursvmponzeqz.png)
 
 On the Name parameter from the General section of the Create - Materialized View window, type “product_info_m-view”.
 
@@ -1005,37 +1005,37 @@ JOIN product_type
 ON product.product_type_id = product_type.product_type_id;
 ```
 
-![Screnshoot 53](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2053.png?raw=true)
+![Screnshoot 53](https://res.cloudinary.com/dmrfsdtq2/image/upload/v1784202503/huvwqvczwclp93jcga6q.png)
 
 The “product_info_m-view” will appear in the dropdown on the Materialized Views of the tree-view pane.
 
-![Masterialised View](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Matarialised%20View.png?raw=true)
+![Masterialised View](https://res.cloudinary.com/dmrfsdtq2/image/upload/v1784202495/lwompti7isqdcgy6fy7w.png)
 
 ## **2.**
 
 Right-click on the “product_info_m-view” icon and select “Refresh View”, then click on “With data”.
 
-![Screenshot 54](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2054.png?raw=true)
+![Screenshot 54](https://res.cloudinary.com/dmrfsdtq2/image/upload/v1784202501/kzp84bmsmb2ms4ddum6i.png)
 
 The following banners should appear on the lower-right side of your screen
 
-![Screenshot 55](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2055.png?raw=true)
+![Screenshot 55](https://res.cloudinary.com/dmrfsdtq2/image/upload/v1784202502/runioxwwhzaajlmmqetb.png)
 
 ## **3.**
 
 To view all rows returned from the view, right-click again on the “product_info_m-view” icon and select “View/Edit Data”, then click on “All Rows”.
 
-![Screenshot 56](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2056.png?raw=true)
+![Screenshot 56](https://res.cloudinary.com/dmrfsdtq2/image/upload/v1784202503/rgl9jaivdyn4o4d2murv.png)
 
 You will be prompted to the Query Tool, showing all rows as follows. 
 
-![Screenshot 57](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2057.png?raw=true)
+![Screenshot 57](https://res.cloudinary.com/dmrfsdtq2/image/upload/v1784202504/xgfrafa1virwvmnnhzmh.png)
 
 ## **4.**
 
 To save the view in CSV format on my local computer, click on the downward arrow icon on the bar at the centre of the screen.
 
-![Screenshot 58](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2058.png?raw=true)
+![Screenshot 58](https://res.cloudinary.com/dmrfsdtq2/image/upload/v1784202505/kpdkiu1bdfxhqmyih9ba.png)
 
 The CSV will be automatically downloaded to your folder. 
 
@@ -1043,7 +1043,7 @@ The CSV will be automatically downloaded to your folder.
 
 Following is the Task8 screenshot.
 
-![Screenshot 59](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2059.jpg?raw=true)
+![Screenshot 59](https://res.cloudinary.com/dmrfsdtq2/image/upload/v1784808983/Screenshot_59_ipvub5.jpg)
 
 ## **Task 9: Import data into a Db2 database**  
 
@@ -1067,41 +1067,41 @@ Proceed by logging in with your credentials and you will be prompted in the IBM 
 
 Click on the “Resource List” icon on the upper-left side of the screen.
 
-![Screenshot 60](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2060.png?raw=true)
+![Screenshot 60](https://res.cloudinary.com/dmrfsdtq2/image/upload/v1784202502/cva6hbet3ngonnzpwb0t.png)
 
 Once in the Resource List page, click on the dropdown icon next to “Databases”, and select Db2-i8.
 
-![Screenshot 61](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2061.png?raw=true)
+![Screenshot 61](https://res.cloudinary.com/dmrfsdtq2/image/upload/v1784202504/wsjoll2zl79qn7uzukkp.png)
 
 Then click on the “Go to UI” button.
 
-![Screenshot 62](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2062.png?raw=true)
+![Screenshot 62](https://res.cloudinary.com/dmrfsdtq2/image/upload/v1784202505/dptw9ijbbm1jv2doeng6.png)
 
 Once inside Db2-i8, click on the Data icon on the left-side pane of the screen.
 
-![Screenshot 63](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2063.png?raw=true)
+![Screenshot 63](https://res.cloudinary.com/dmrfsdtq2/image/upload/v1784202506/rdi5zegjmj4yr38c7dcb.png)
 
 ## **2.**
 
 Once prompted on the page, the “Load Data” tab will be automatically selected. Drop the staff_locations_view.csv file on the screen (or alternatively, click on the hyperlink “Drag a file here or browse files”), and click on the “Next” button on the lower-right corner.
 
-![Screenshot 64](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2064.png?raw=true)
+![Screenshot 64](https://res.cloudinary.com/dmrfsdtq2/image/upload/v1784202503/ylxbukewwxttmvbqmppt.png)
 
 On the next page, click on the schema, then click on “New table”, name it “STAFF_LOCATIONS”, and then click the “Create” button.
 
-![Screenshot 65](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2065.png?raw=true)
+![Screenshot 65](https://res.cloudinary.com/dmrfsdtq2/image/upload/v1784202504/ukm6kmkzdkbcn1oqk8cf.png)
 
 Ensure that the “STAFF_LOCATIONS” table is checked, and click on the “Next” button. 
 
-![Screenshot 66](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2066.png?raw=true)
+![Screenshot 66](https://res.cloudinary.com/dmrfsdtq2/image/upload/v1784202505/nfl5lszjimovjop1i73q.png)
 
 On the following page, click the “Begin Load” button in the lower right corner. 
 
-![Screenshot 67](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2067.png?raw=true)
+![Screenshot 67](https://res.cloudinary.com/dmrfsdtq2/image/upload/v1784202506/wtgmnhg6npknebylswko.png)
 
 Once the csv file is loaded, the screen should appear as follows. Proceed by clicking on the hyperlink “View Table”.
 
-![Screenshot 68](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2068.png?raw=true)
+![Screenshot 68](https://res.cloudinary.com/dmrfsdtq2/image/upload/v1784202507/uvrnmr6ursvu7uq83h4g.png)
 
 ## **3.**
 
@@ -1111,7 +1111,7 @@ Scroll through the data and explore the table as you prefer.
 
 Following is the Task9 screenshot. 
 
-![Task 9](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Task9.jpg?raw=true)
+![Task 9](./Tasks/Task9.jpg)
 
 ## **Task 10: Import data into a MySQL database**
 
@@ -1131,43 +1131,43 @@ Following is the Task9 screenshot.
 
 In a similar fashion as with opening PostgreSQL, click on the “Skills Network Toolbox” icon, then select “Databases”, “MySQL”, and finally, click on the “Create” button.
 
-![Screenshot 69](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2069.png?raw=true)
+![Screenshot 69](https://res.cloudinary.com/dmrfsdtq2/image/upload/v1784202504/uobfgv3ggolm2iebad5a.png)
 
 ## **2.**
 
 Once active, click on the “Open in new browser tab” button.
 
-![Screenshot 70](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2070.png?raw=true)
+![Screenshot 70](https://res.cloudinary.com/dmrfsdtq2/image/upload/v1784202505/cqm8qsghtxjmbu3pj02h.png)
 
 ## **3.**
 
 On the tree-view on the left pane of the screen, click on the “New” icon.
 
-![Screenshot 71](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2071.png?raw=true)
+![Screenshot 71](https://res.cloudinary.com/dmrfsdtq2/image/upload/v1784202506/wcdzzv5gkahff11looby.png)
 
 Proceed by naming the database as “coffee_shop_products”, and click the “Create” button.
 
-![Screenshot 72](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2072.png?raw=true)
+![Screenshot 72](https://res.cloudinary.com/dmrfsdtq2/image/upload/v1784202507/zcmo18aanfamoxxxgto0.png)
 
 Click on the “Import” tab on the top bar of the screen.
 
-![Screenshot 73](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2073.png?raw=true)
+![Screenshot 73](https://res.cloudinary.com/dmrfsdtq2/image/upload/v1784202503/eoks6qxtoum2nndvajtt.png)
 
 Click on the “Choose File” button in the “File to import” section.
 
-![Screenshot 74](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2074.png?raw=true)
+![Screenshot 74](https://res.cloudinary.com/dmrfsdtq2/image/upload/v1784202504/b2temjhjhsxks2zjlvcn.png)
 
 Select “product_info_m_view.csv” and click on the “Open” button.
 
-![Screenshot 75](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2075.png?raw=true)
+![Screenshot 75](https://res.cloudinary.com/dmrfsdtq2/image/upload/v1784202505/fmihgwtflntzbgjae2rk.png)
 
 On the “Format” section, ensure to select “CSV”.
 
-![Screenshot 76](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2076.png?raw=true)
+![Screenshot 76](https://res.cloudinary.com/dmrfsdtq2/image/upload/v1784202506/qttppubpbpqywjb4nfmn.png)
 
 Proceed by clicking the “Import” button at the bottom of the page. 
 
-![Screenshot 77](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2077.png?raw=true)
+![Screenshot 77](https://res.cloudinary.com/dmrfsdtq2/image/upload/v1784202506/mjrovaht7ayy3lkk6osw.png)
 
 ## **4.**
 
@@ -1175,10 +1175,10 @@ If uploaded correctly, the page should appear as follows.
 
 Click on the “product_info_m_view” icon on the tree-view of the left-side screen pane. 
 
-![Screenshot 78](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2078.png?raw=true)
+![Screenshot 78](https://res.cloudinary.com/dmrfsdtq2/image/upload/v1784202506/mxv4m3uz1zxqxdzqgdmr.png)
 
 ## **5.**
 
 Following is the Task10 screenshot. Feel free to explore the table as you wish. 
 
-![Screenshot 79](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2079.png?raw=true)
+![Screenshot 79](https://res.cloudinary.com/dmrfsdtq2/image/upload/v1784202508/ifkqvwos7clepjolivdr.png)

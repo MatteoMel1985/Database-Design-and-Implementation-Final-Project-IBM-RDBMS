@@ -110,21 +110,21 @@ On the newly opened panel, write “COFFEE” in the “Database” label, then,
 
 Check the upper left side of the screen, and select the icon “COFFEE” under “Databases”, then, click on the arrow of the icon “Schemas” and observe the options listed. Finally, go back to “COFFEE” icon and right-click it. Select “ERD For Database”.
 
-![Screenshot 13](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2013.png?raw=true)
+![Screenshot 13](https://res.cloudinary.com/dmrfsdtq2/image/upload/v1784202496/g68nizrunmzrbaawfcwe.png)
 
 ## **5.**
 
 Click on the “+” icon on the ERD page.
 
-![Screenshot 14](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2014.png?raw=true)
+![Screenshot 14](https://res-console.cloudinary.com/dmrfsdtq2/thumbnails/v1/image/upload/v1784202497/dHBjMDFnNGVjMm1pbWdiMWFxcW4=/drilldown)
 
 On the “General” tab of the new screen, under the “Name” lable, write “sales_transaction”; then, proceed by clicking on the “Columns” tab.
 
-![Screenshot 15](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2015.png?raw=true)
+![Screenshot 15](https://res.cloudinary.com/dmrfsdtq2/image/upload/v1784202497/a8ocpfhthfjkmxfzxwqn.png)
 
 Click 9 times on the “+” on the upper-right part of the screen, so as to create 9 rows, then fill the data as reported on the table, and click the “Save” button. 
 
-![Screenshot 16](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2016.png?raw=true)
+![Screenshot 16](https://res.cloudinary.com/dmrfsdtq2/image/upload/v1784202498/klqhsovekf4mr9nyf4ds.png)
 
 <table>
   <tr>
@@ -293,7 +293,7 @@ Click 9 times on the “+” on the upper-right part of the screen, so as to cre
 
 The ERD will appear on the page as follows (see also the file “Task3A” in the Tasks folder)
 
-![Screenshot 17](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2017.jpg?raw=true)
+![Screenshot 17](https://res.cloudinary.com/dmrfsdtq2/image/upload/v1784806651/Screenshot_17_zdcz7t.jpg)
 
 
 ## **7.**
@@ -419,7 +419,7 @@ Repeat all the steps of point 5., insert “product” in the Name label, and fi
 
 The ERD will appear on the page as follows (see also the file “Task3B” in the Tasks folder)
 
-![Screenshot 18](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2018.jpg?raw=true)
+![Screenshot 18](https://res.cloudinary.com/dmrfsdtq2/image/upload/v1784806774/Screenshot_18_djnllj.jpg)
 
 ## **Task 4: Normalize tables**
 
@@ -462,7 +462,7 @@ A **relation is in 2NF** if:
 
 By reviewing the data in the sales_transaction table, we can observe that the column transaction_id does not contain unique values:
 
-![Screenshot 19](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2019.png?raw=true)
+![Screenshot 19](https://res.cloudinary.com/dmrfsdtq2/image/upload/v1784202496/amln1f2zgqoldtl4njdj.png)
 
 ## **2.**
 
@@ -639,17 +639,17 @@ Set the Data type of the attributes transaction_id, product_id, and quantity as 
 
 To delete the same attributes from the entity sales_transaction, click on the table on the screen to highlight it, then proceed by clicking on the pencil icon on the upper part of the screen.
 
-![Screenshot 20](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2020.png?raw=true)
+![Screenshot 20](https://res.cloudinary.com/dmrfsdtq2/image/upload/v1784202498/lsksw5zdphwhupobpwoq.png)
 
 Then, click on the “Columns” label, then click on the trash bins icons on the left of the column names “product_id”, “quantity”, and “price”, and finally, click on the “Save” button on the lower-right side of the screen.
 
-![Screenshot 21](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2021.png?raw=true)
+![Screenshot 21](https://res.cloudinary.com/dmrfsdtq2/image/upload/v1784202499/zus0neiqtuqmclce2ph2.png)
 
 ## **4.**
 
 The ERD screenshot will appear as follows.
 
-![Screenshot 22](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2022.jpg?raw=true)
+![Screenshot 22](https://res.cloudinary.com/dmrfsdtq2/image/upload/v1784806991/Screenshot_22_vw4rny.jpg)
 
 ## **5.**
 
@@ -716,13 +716,13 @@ Repeat the Task 3 steps 1, 2, 3, 4, 5, and 6 to create the “product_type” ta
 
 To delete the attributes product_category, product_type, product_name and description from the product entity, follow the steps shown in point 3. of this Task.
 
-![Screenshot 23](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2023.png?raw=true)
+![Screenshot 23](https://res.cloudinary.com/dmrfsdtq2/image/upload/v1784202500/dpp7mek0up6awilz11lj.png)
 
 ## **8.**
 
 The screenshot will appear as follows.
 
-![Screenshot 24](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2024.jpg?raw=true)
+![Screenshot 24](https://res.cloudinary.com/dmrfsdtq2/image/upload/v1784807161/Screenshot_24_axxrop.jpg)
 
 ## **Task 5: Define keys and relationships**
 
@@ -750,7 +750,7 @@ No other primary keys are supposed to be set. “transaction_id” in the sales_
 
 The ERD will appear exactly as in Task4B. The same screenshot can be used for Task5A.
 
-![Screenshot 25](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2025.jpg?raw=true)
+![Screenshot 25](https://res.cloudinary.com/dmrfsdtq2/image/upload/v1784807263/Screenshot_25_ngvcpx.jpg)
 
 ## **3**
 
@@ -758,11 +758,11 @@ sales_transactions and sales_detail shares the “transaction_id” attribute.
 
 To link them together, click on the sales_detail entity, then on the “1M” icon on the upper side of the screen.
 
-![Screenshot 26](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2026.png?raw=true)
+![Screenshot 26](https://res.cloudinary.com/dmrfsdtq2/image/upload/v1784202497/begleyaenmh25sxasmz8.png)
 
 On “Local Column” select “transaction_id”, on “Referenced Table” select “(public) sales_transaction”, and finally, on “Referenced Column”, select “transaction_id”. Then, click on the “Save” button.
 
-![Screenshot 27](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2027.png?raw=true)
+![Screenshot 27](https://res.cloudinary.com/dmrfsdtq2/image/upload/v1784202498/awvlzrvptagvirfdp39v.png)
 
 Between sales_detail and product we find “product_id”; however, the primary key product_id is also intimately linked to transaction_id.
 
@@ -770,11 +770,11 @@ To link them together, click on the sales_detail entity, then on the “1M” ic
 
 On “Local Column” select “product_id”, on “Referenced Table” select “(public) product”, and finally, on “Referenced Column”, select “product_id”. Then, click on the “Save” button.
 
-![Screenshot 28](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2028.png?raw=true)
+![Screenshot 28](https://res.cloudinary.com/dmrfsdtq2/image/upload/v1784202498/vr0f7xqzs6pu02swvzmd.png)
 
 To connect transaction_id to the primary key product_id, repeat the process, and select on Local Column “transaction_id”, for Referenced Table select “(public) product”; finally, for Referenced Column choose “product_id” and click on the save button.
 
-![Screenshot 29](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2029.png?raw=true)
+![Screenshot 29](https://res.cloudinary.com/dmrfsdtq2/image/upload/v1784202499/jdl2p7pxkgzvwx1ziv97.png)
 
 Between product and product_type we have “product_id”.
 
@@ -782,13 +782,13 @@ To link them together, click on the product entity, then on the “1M” icon on
 
 On “Local Column” select “product_id”, on “Referenced Table” select “(public) product_type”, and finally, on “Referenced Column”, select “product_id”. Then, click on the “Save” button.
 
-![Screenshot 30](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2030.png?raw=true)
+![Screenshot 30](https://res.cloudinary.com/dmrfsdtq2/image/upload/v1784202498/sanh6iazd7cg9uiwrxkf.png)
 
 ## **4.**
 
 The ERD screenshot will appear as follows.
 
-![Screenshot 31](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2031.png?raw=true)
+![Screenshot 31](https://res.cloudinary.com/dmrfsdtq2/image/upload/v1784202499/ufqfwhzuuyjxxp77wz9r.png)
 
 ## **Task 6: Create database objects by generating and running the SQL script from the ERD Tool**
 
@@ -814,11 +814,11 @@ The ERD screenshot will appear as follows.
 
 To do so, click on the SQL icon on the upper bar of the ERD screen.
 
-![Screenshot 32](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2032.png?raw=true)
+![Screenshot 32](https://res.cloudinary.com/dmrfsdtq2/image/upload/v1784202500/gy2u6yw1etd02fnbvi3b.png)
 
 You will be prompted on the following page.
 
-![Screenshot 33](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2033.png?raw=true)
+![Screenshot 33](https://res.cloudinary.com/dmrfsdtq2/image/upload/v1784202501/g58cq7wpwycqqejbna9c.png)
 
 ## **2.**
 
@@ -830,21 +830,21 @@ Click on a random area of the Query Tool, click ctrl+A to select all the script,
 
 The screen should appear as follows.
 
-![Screenshot 34](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2034.png?raw=true)
+![Screenshot 34](https://res.cloudinary.com/dmrfsdtq2/image/upload/v1784202503/odwz2fvxforkui8vgft3.png)
 
-![Screenshot 35](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2035.png?raw=true)
+![Screenshot 35](https://res.cloudinary.com/dmrfsdtq2/image/upload/v1784202499/b8efpn2k3cu8eacg2vol.png)
 
 Now, drag the GeneratedScript.sql file into the Query Tool; it should automatically load the script, as shown in the image.
 
 Once visualised, click on the play-button icon in the top-centre of the screen and run it. 
 
-![Screenshot 36](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2036.png?raw=true)
+![Screenshot 36](https://res.cloudinary.com/dmrfsdtq2/image/upload/v1784202500/gjaggrcrk77xngts0ok3.png)
 
 ## **4.**
 
 In case the 7 tables are not immediately visualised, and you still see 4 of them in the list, left-click on the database “COFFEE” icon in the tree-view pane on the left side of the screen, then left-click on “Schemas”, then left clik “public”, and finally, right click on “Tables”, and select “Refresh”
 
-![Screenshot 37](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2037.png?raw=true)
+![Screenshot 37](https://res.cloudinary.com/dmrfsdtq2/image/upload/v1784202501/segy1bklzgacu02lt0p8.png)
 
 Once refreshed, the Tables icon with the dropdown opened should appear as follows. 
 
@@ -856,13 +856,13 @@ The CofeeData.sql file can be found in the SQL folder.
 
 Right click on the COFFEE database and select again “ERD For Database”.
 
-![Screenshot 38](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2038.png?raw=true)
+![Screenshot 38](https://res.cloudinary.com/dmrfsdtq2/image/upload/v1784202502/onocofoxtaskuenbddfv.png)
 
 In the ERD page, click on the SQL icon and access the Query Tool,
 
 Repeat what is shown in step 1. by clicking on the SQL icon. Remove again all the script by typing Ctrl+A and Ctrl+Z; then, run the script. 
 
-![Screenshot 39](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2039.png?raw=true)
+![Screenshot 39](https://res.cloudinary.com/dmrfsdtq2/image/upload/v1784202502/bq4m6pbofqqx8opulsvv.png)
 
 
 ## **7.**

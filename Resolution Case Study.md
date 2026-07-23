@@ -4,7 +4,7 @@ In relational databases, an **entity** represents a **real-world object or conce
 
 In the given tables
 
-![Screenshot 1](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%201.png?raw=true)
+![Screenshot 1](https://res.cloudinary.com/dmrfsdtq2/image/upload/v1784202496/gypfobkf343gjsxebvxd.png)
 
 We can find the following entities:
 
@@ -52,13 +52,13 @@ Specifically to entity *sales_transaction*, we can identify the following attrib
 
 ***5. Add a table to the ERD for the sale transactions entity using the information in the following table. Consider what naming convention to use so that your colleagues will be able to understand your data and to ensure that the names are valid in other RDBMS. And use the sample data shown in the image in Task 1 to determine appropriate data types for each column.***  
 
-![Screenshot 2](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%202.png?raw=true)
+![Screenshot 2](https://res.cloudinary.com/dmrfsdtq2/image/upload/v1784202497/hkmtbjkw25epka67nxcu.png)
 
 ***6. Take a screenshot of your ERD and save it as Task3A.png or Task3A.jpg.***  
 
 ***7. Add a table to the ERD for the product entity using the information in the following table. Consider what naming convention to use so that your colleagues will be able to understand your data and to ensure that the names are valid in other RDBMS. And use the sample data shown in the image in Task 1 to determine appropriate data types for each column.***  
 
-![Screenshot 3](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%203.png?raw=true)
+![Screenshot 3](https://res.cloudinary.com/dmrfsdtq2/image/upload/v1784202500/tcwbc755wannj1q9rqbg.png)
 
 ***8. Take a screenshot of your ERD and save it as Task3B.png or Task3B.jpg.***  
 
@@ -66,13 +66,13 @@ Specifically to entity *sales_transaction*, we can identify the following attrib
 
 On the ribbon in the upper part of the EDI, click on “Terminal”, and then “New Terminal”.
 
-![Screenshot 4](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%204.png?raw=true)
+![Screenshot 4](https://res.cloudinary.com/dmrfsdtq2/image/upload/v1784202499/sr8ird7wuu4escj3lh6l.png)
 
 ## **2.**
 
 For a manual start, on the upper-left side of the EDI, click in the following order: “DATABASES”, then “PostgreSQL”, and “Create”.
 
-![Screenshot 5](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%205.png?raw=true)
+![Screenshot 5](https://res.cloudinary.com/dmrfsdtq2/image/upload/v1784202502/hperkc55bxopimodkjyu.png)
 
 Wait until it fully loads.
 
@@ -80,11 +80,11 @@ Wait until it fully loads.
 
 Click on the button “pgAdmin”
 
-![Screenshot 6](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%206.png?raw=true)
+![Screenshot 6](https://res.cloudinary.com/dmrfsdtq2/image/upload/v1784202501/sj80vyoczmrzflkzj36o.png)
 
 Wait for the page to load, or copy the link and paste it in a different tab of your browser.
 
-![Screenshot 7](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%207.png?raw=true)
+![Screenshot 7](https://res.cloudinary.com/dmrfsdtq2/image/upload/v1784202504/v0dabwd1u3b2ilrggs6d.png)
 
 ## **4.**
 
@@ -92,17 +92,17 @@ On the upper left side of the screen, click on the icon “Servers”.
 
 To enter the server, you will be requested to enter the password of the user “postgres”.
 
-![Screenshot 8](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%208.png?raw=true)
+![Screenshot 8](https://res.cloudinary.com/dmrfsdtq2/image/upload/v1784202504/v0dabwd1u3b2ilrggs6d.png)
 
 To get the password,go back to the PostgreSQL tab, click on “Connection Information”, copy the string in the POSTGRES_PASSWORD section, and paste it into pgAdmin, then click on the OK button.
 
-![Screenshot 9](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%209.png?raw=true)
+![Screenshot 9](https://res.cloudinary.com/dmrfsdtq2/image/upload/v1784202510/urjo33fti9v7wshn4qpn.png)
 
-![Screenshot 10](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2010.png?raw=true)
+![Screenshot 10](https://res.cloudinary.com/dmrfsdtq2/image/upload/v1784202497/ndz9qy3liqm5fdqx2zfo.png)
 
 Right click on the “Databases” icon on the left side of the screen, then select “Create”, and “Database…”.
 
-![Screenshot 11](https://github.com/MatteoMel1985/Relational-Dataset-Images/blob/main/Images/Screenshot%2011.png?raw=true)
+![Screenshot 11](https://res.cloudinary.com/dmrfsdtq2/image/upload/v1784202498/lzcvpcgxbf3gcgt98oh8.png)
 
 On the newly opened panel, write “COFFEE” in the “Database” label, then, press the “Save” button.
 
